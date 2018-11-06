@@ -1,9 +1,9 @@
 var customerName = 'bob'
 
-function upperCaseCustomerName(customerName) {
-  console.log(customerName)
+function upperCaseCustomerName() {
+  var customerName = customerName.toUpperCase()
 }
 
 function setBestCustomer() {
-  
+  var bestCustomer = 'not bob'
 }
